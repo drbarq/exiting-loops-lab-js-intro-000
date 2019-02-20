@@ -21,7 +21,7 @@ function breakOut(array, changeValue, stopValue) {
      else {
         break
      }
-     console.log(array)
-  }
 
+  }
+console.log(array)
 }
