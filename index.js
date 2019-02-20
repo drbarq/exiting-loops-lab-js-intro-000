@@ -16,5 +16,6 @@ function breakOut(array, changeValue, stopValue) {
     if (array[i] !== stopValue) {
       array.splice(i, 1, changeValue);
      }
+     break;
   }
 }
