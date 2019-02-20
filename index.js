@@ -18,7 +18,7 @@ function breakOut(array, changeValue, stopValue) {
       console.log(i)
       // array.splice(i, 1, changeValue);
      }
-     break
+
   }
 
 }
