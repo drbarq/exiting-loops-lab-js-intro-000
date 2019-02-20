@@ -14,7 +14,7 @@
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i > array.length; ++i) {
     array.push(changeValue)
-    if (array[i] === stopValue)
-    break
+    if (array[i] === stopValue) {
+    break }
   }
 }
