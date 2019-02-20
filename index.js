@@ -48,19 +48,19 @@ function keepGoing(array, changeValue, skipValue) {
 
 function findBy(array, findFn) {
   for(var i = 0; i < array.length; i++) {
-      if (array[i] === findFn) {
+      if (array.find(function(findFn))) {
 
     //    array[i] = findFn) {
         console.log(findFn)
   //    return array[i]
 } else {
 
-
-continue
-  }
-  }
   console.log(null)
   return null
+
+  }
+  }
+  
 }
 
 //
