@@ -10,7 +10,10 @@
 
 
 // I thought I would use .forEach but per google it's the wrong tool to use
-//
+//I used a for loop and an if statement to check if the element was the same as the stop value
+// if it wasnt (true?) then change the value with the changevalue variable
+// if it was the same (false?) then break the loop
+// finally return the array
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i < array.length; ++i) {
     if (array[i] != stopValue) {
