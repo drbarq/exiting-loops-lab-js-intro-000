@@ -10,17 +10,17 @@
 
 
 // I thought I would use .forEach but per google it's the wrong tool to use
-
+//
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i < array.length; ++i) {
     if (array[i] != stopValue) {
-      array[i] = changeValue;
-    //  array.splice(i, 1, changeValue)
+    //  array[i] = changeValue;
+      array.splice(i, 1, changeValue)
      }
      else {
         break
      }
   }
-  return array 
+  return array
 // console.log(array)
 }
