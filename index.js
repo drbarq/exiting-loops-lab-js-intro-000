@@ -56,14 +56,14 @@ function findBy(array, findFn) {
     //  console.log(array[i])
     //  return array[i]
      }
-    else {
-      return null
+  //  else {
+  //    return null
      }
   }
 //   console.log(array)
 //    return array[i]
 //  return array
 // console.log(array)
-}
+
 
 // find(array, (s) => s.length === findFn)
