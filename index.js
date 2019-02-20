@@ -17,10 +17,10 @@ function breakOut(array, changeValue, stopValue) {
     //  array[i] = changeValue;
       array.splice(i, 1, changeValue);
       console.log(i)
-      break 
+       
 
      }
-
+     break 
   }
 
 }
