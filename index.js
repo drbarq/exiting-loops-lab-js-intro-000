@@ -62,7 +62,7 @@ function findBy(array, findFn) {
 
 function findBy(array, findFn) {
   for (let i = 0; i < array.length; i++) {
-    if (findfn === array[i](array[i])) {
+    if (findFn === array[i](array[i])) {
       console.log(findFn)
       return array[i]
     }
