@@ -14,7 +14,7 @@
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i < array.length; ++i) {
     if (array[i] != stopValue) {
-      `${array[i]}` = changeValue;
+      array[i] = changeValue;
     //  array.splice(i, 1, changeValue)
       console.log(i)
      }
