@@ -58,7 +58,7 @@ function findBy(array, findFn) {
       return null
      }
   }
-   console.log(array[i])
+   console.log(array)
     return array[i]
 //  return array
 // console.log(array)
