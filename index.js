@@ -62,7 +62,7 @@ function findBy(array, findFn) {
   console.log(null)
   return null
      }
-     
+
   }
 //   console.log(array)
 //    return array[i]
