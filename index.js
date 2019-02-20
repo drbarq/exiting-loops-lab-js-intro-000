@@ -38,9 +38,8 @@ function keepGoing(array, changeValue, skipValue) {
     //  array[i] = changeValue;
       array.splice(i, 1, changeValue)
      }
-     else {
-       array.splice(i)
-      //  continue
+    else {
+      continue
      }
   }
   return array
