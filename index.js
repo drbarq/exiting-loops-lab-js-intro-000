@@ -60,6 +60,10 @@ function findBy(array, findFn) {
 
 /*
 
+if (criteriaFunc(array[i])) {
+     return array[i]
+/*
+
     //    array[i] = findFn) {
       //  console.log(findFn)
         console.log(array[i] === findFn)
