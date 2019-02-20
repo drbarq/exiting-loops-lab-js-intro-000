@@ -46,11 +46,3 @@ function keepGoing(array, changeValue, skipValue) {
 // console.log(array)
 }
 }
-
-
-
-
-
-
-
-
