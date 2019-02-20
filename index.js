@@ -65,3 +65,5 @@ function findBy(array, findFn) {
 //  return array
 // console.log(array)
 }
+
+find(array, (s) => s.length === findFn)
