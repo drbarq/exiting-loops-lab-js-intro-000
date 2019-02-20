@@ -49,25 +49,17 @@ function keepGoing(array, changeValue, skipValue) {
 function findBy(array, findFn) {
   for(var i = 0; i < array.length; i++) {
       if (array[i] === findFn) {
-    //  if (findFn(array[i])) {
+        console.log(findFn)
       return findFn
-    //  console.log(findFn)
-    //  return findFn
-    //  console.log(array[i])
-    //  return array[i]
-     }
-  //  else {
-  //    return null
-
   console.log(null)
   return null
      }
 
   }
-//   console.log(array)
-//    return array[i]
-//  return array
-// console.log(array)
 
 
 // find(array, (s) => s.length === findFn)
+
+
+
+
