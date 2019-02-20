@@ -12,9 +12,10 @@
 // I thought I would use .forEach but per google it's the wrong tool to use
 
 function breakOut(array, changeValue, stopValue) {
-  for(var i = 0; i > array.length; ++i) {
+  for(var i = 0; i < array.length; ++i) {
     if (array[i] !== stopValue) {
       array.splice(array[i], 1, changeValue);
+      return array[i]
      }
      break;
   }
