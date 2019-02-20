@@ -59,7 +59,3 @@ function findBy(array, findFn) {
 
 
 // find(array, (s) => s.length === findFn)
-
-
-
-
