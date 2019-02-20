@@ -50,7 +50,7 @@ function findBy(array, findFn) {
   for(var i = 0; i < array.length; i++) {
     if (array[i] === findFn) {
       console.log(findFn)
-      return findFn  
+      return findFn
     //  console.log(array[i])
     //  return array[i]
      }
