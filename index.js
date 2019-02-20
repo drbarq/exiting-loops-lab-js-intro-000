@@ -53,7 +53,7 @@ function findBy(array, findFn) {
     //    array[i] = findFn) {
         console.log(findFn)
   //    return array[i]
-}); else {
+})); else {
 
   console.log(null)
   return null
