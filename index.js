@@ -20,7 +20,7 @@ function breakOut(array, changeValue, stopValue) {
      }
   }
   return array
-// console.log(array)
+ console.log(array)
 }
 
 
