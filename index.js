@@ -31,7 +31,7 @@ function breakOut(array, changeValue, stopValue) {
 // `keepGoing(array, changeValue, skipValue)` which iterates through `array` and changes every element to `changeValue`
 //          except those that match `skipValue`. Then return the array.
 // im thinking i can either set the variable equal to itself and in essence skips it, or leave it alone with continue and go back to the top
-
+// to change the value, I can either delete and reset or set the value:: is there a difference?  
 function keepGoing(array, changeValue, skipValue) {
   for(var i = 0; i < array.length; ++i) {
     if (array[i] != skipValue) {
