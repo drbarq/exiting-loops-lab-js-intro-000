@@ -13,8 +13,8 @@
 
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i > array.length; ++i) {
-    array.push(changeValue)
-    if (array[i] === stopValue) {
+    if (array[i] !== stopValue) {
+      array[i].push(changeValue)
     break }
   }
 }
