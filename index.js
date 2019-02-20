@@ -58,6 +58,8 @@ function findBy(array, findFn) {
     }
 }
 
+/*
+
     //    array[i] = findFn) {
       //  console.log(findFn)
         console.log(array[i] === findFn)
@@ -73,3 +75,4 @@ function findBy(array, findFn) {
 }
 
 //
+*/
