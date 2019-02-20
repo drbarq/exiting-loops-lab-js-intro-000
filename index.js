@@ -52,9 +52,9 @@ function findBy(array, findFn) {
       console.log("found it")
      }
     else {
-      return null 
+      return null
      }
   }
-  return array
+//  return array
 // console.log(array)
 }
