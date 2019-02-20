@@ -18,4 +18,5 @@ function breakOut(array, changeValue, stopValue) {
       // array.splice(i, 1, changeValue);
      }
   }
+  break
 }
