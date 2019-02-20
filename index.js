@@ -60,7 +60,7 @@ function findBy(array, findFn) {
 
   }
   }
-  
+
 }
 
 //
